@@ -3,7 +3,7 @@
 
 pragma solidity >=0.6.12;
 
-import {ERC20} from "./ERC20.sol";
+import {BasicERC20} from "./BasicERC20.sol";
 
 contract Proxy {
     bytes32 constant ADMIN_KEY = bytes32(uint256(keccak256('eip1967.proxy.admin')) - 1);
@@ -18,7 +18,7 @@ contract Proxy {
         address usr = msg.sender;
         assembly { sstore(slot, usr) }
 
-        upgrade(address(new ERC20(totalSupply)));
+        upgrade(address(new BasicERC20(totalSupply)));
 
     }
 

@@ -3,17 +3,7 @@
 
 pragma solidity >=0.6.12;
 
-contract Math {
-    // --- Math ---
-    function add(uint x, uint y) internal pure returns (uint z) {
-        require((z = x + y) >= x);
-    }
-    function sub(uint x, uint y) internal pure returns (uint z) {
-        require((z = x - y) <= x);
-    }
-}
-
-contract ERC20 is Math {
+contract Bytes32ERC20  {
     // --- ERC20 Data ---
     bytes32 public constant name = "Token";
     bytes32 public constant symbol = "TKN";
@@ -52,5 +42,12 @@ contract ERC20 is Math {
         allowance[msg.sender][usr] = wad;
         emit Approval(msg.sender, usr, wad);
         return true;
+    }
+        // --- Math ---
+    function add(uint x, uint y) internal pure returns (uint z) {
+        require((z = x + y) >= x);
+    }
+    function sub(uint x, uint y) internal pure returns (uint z) {
+        require((z = x - y) <= x);
     }
 }

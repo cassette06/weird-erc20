@@ -3,14 +3,14 @@
 
 pragma solidity >=0.6.12;
 
-import {ERC20} from "./ERC20.sol";
+import {BasicERC20} from "./BasicERC20.sol";
 
-contract TransferFeeToken is ERC20 {
+contract TransferFeeToken is BasicERC20 {
 
     uint immutable fee;
 
     // --- Init ---
-    constructor(uint _totalSupply, uint _fee) ERC20(_totalSupply) public {
+    constructor(uint _totalSupply, uint _fee) BasicERC20(_totalSupply) public {
         fee = _fee;
     }
 

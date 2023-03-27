@@ -1,0 +1,929 @@
+{
+  "_format": "ethers-rs-sol-cache-3",
+  "paths": {
+    "artifacts": "out",
+    "build_infos": "out/build-info",
+    "sources": "src",
+    "tests": "test",
+    "scripts": "script",
+    "libraries": [
+      "lib"
+    ]
+  },
+  "files": {
+    "lib/ds-test/src/test.sol": {
+      "lastModificationDate": 1679921045943,
+      "contentHash": "5d45a46528eaf8a26f0a8d93669f3148",
+      "sourceName": "lib/ds-test/src/test.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.4.23",
+      "artifacts": {
+        "DSTest": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "test.sol/DSTest.json"
+        }
+      }
+    },
+    "src/Approval.sol": {
+      "lastModificationDate": 1679928120868,
+      "contentHash": "d78e30d75dee45556435ff951e4e80bb",
+      "sourceName": "src/Approval.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "src/BasicERC20.sol"
+      ],
+      "versionRequirement": ">=0.6.12",
+      "artifacts": {
+        "ApprovalRaceToken": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Approval.sol/ApprovalRaceToken.json"
+        }
+      }
+    },
+    "src/ApprovalToZero.sol": {
+      "lastModificationDate": 1679928131392,
+      "contentHash": "11d7240ee91aef1ca75d226c12f1458b",
+      "sourceName": "src/ApprovalToZero.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "src/BasicERC20.sol"
+      ],
+      "versionRequirement": ">=0.6.12",
+      "artifacts": {
+        "ApprovalToZeroToken": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "ApprovalToZero.sol/ApprovalToZeroToken.json"
+        }
+      }
+    },
+    "src/BasicERC20.sol": {
+      "lastModificationDate": 1679928261361,
+      "contentHash": "c08d6fac90d9576ceb5044e6a8f9aa12",
+      "sourceName": "src/BasicERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.6.12",
+      "artifacts": {
+        "BasicERC20": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "BasicERC20.sol/BasicERC20.json"
+        }
+      }
+    },
+    "src/BlockList.sol": {
+      "lastModificationDate": 1679928146737,
+      "contentHash": "b91317e98d17451d7f74a3821e2cea2e",
+      "sourceName": "src/BlockList.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "src/BasicERC20.sol"
+      ],
+      "versionRequirement": ">=0.6.12",
+      "artifacts": {
+        "BlockableToken": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "BlockList.sol/BlockableToken.json"
+        }
+      }
+    },
+    "src/Bytes32Metadata.sol": {
+      "lastModificationDate": 1679928207939,
+      "contentHash": "fe6617110c388d5a855264d3cbea34c0",
+      "sourceName": "src/Bytes32Metadata.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.6.12",
+      "artifacts": {
+        "Bytes32ERC20": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Bytes32Metadata.sol/Bytes32ERC20.json"
+        }
+      }
+    },
+    "src/DaiPermit.sol": {
+      "lastModificationDate": 1679928232341,
+      "contentHash": "7d913d2b2ca54b932ebc2967cc8ba9b5",
+      "sourceName": "src/DaiPermit.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.6.12",
+      "artifacts": {
+        "DaiPermit": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "DaiPermit.sol/DaiPermit.json"
+        }
+      }
+    },
+    "src/HighDecimals.sol": {
+      "lastModificationDate": 1679928245179,
+      "contentHash": "9f027e11b92e61e71084f4a8f2249a02",
+      "sourceName": "src/HighDecimals.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "src/BasicERC20.sol"
+      ],
+      "versionRequirement": ">=0.6.12",
+      "artifacts": {
+        "HighDecimalToken": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "HighDecimals.sol/HighDecimalToken.json"
+        }
+      }
+    },
+    "src/LowDecimals.sol": {
+      "lastModificationDate": 1679928410068,
+      "contentHash": "a7013a7e3a34127cfcab380a09fa3c98",
+      "sourceName": "src/LowDecimals.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "src/BasicERC20.sol"
+      ],
+      "versionRequirement": ">=0.6.12",
+      "artifacts": {
+        "LowDecimalToken": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "LowDecimals.sol/LowDecimalToken.json"
+        }
+      }
+    },
+    "src/MissingReturns.sol": {
+      "lastModificationDate": 1679920775791,
+      "contentHash": "e686cc986fffbebaf96b99039e902129",
+      "sourceName": "src/MissingReturns.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.6.12",
+      "artifacts": {
+        "MissingReturnToken": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "MissingReturns.sol/MissingReturnToken.json"
+        }
+      }
+    },
+    "src/NoRevert.sol": {
+      "lastModificationDate": 1679920775791,
+      "contentHash": "d6db31431e2e6711afdcd1da98fb4149",
+      "sourceName": "src/NoRevert.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.6.12",
+      "artifacts": {
+        "NoRevertToken": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "NoRevert.sol/NoRevertToken.json"
+        }
+      }
+    },
+    "src/Pausable.sol": {
+      "lastModificationDate": 1679928444033,
+      "contentHash": "cd0c2215e1289ccde9769b14fe2f8095",
+      "sourceName": "src/Pausable.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "src/BasicERC20.sol"
+      ],
+      "versionRequirement": ">=0.6.12",
+      "artifacts": {
+        "PausableToken": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Pausable.sol/PausableToken.json"
+        }
+      }
+    },
+    "src/Proxied.sol": {
+      "lastModificationDate": 1679920775791,
+      "contentHash": "ec0c1e9dc4db795df79657ee5a594cc1",
+      "sourceName": "src/Proxied.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.6.12",
+      "artifacts": {
+        "ProxiedToken": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Proxied.sol/ProxiedToken.json"
+        },
+        "TokenProxy": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Proxied.sol/TokenProxy.json"
+        }
+      }
+    },
+    "src/Reentrant.sol": {
+      "lastModificationDate": 1679928465560,
+      "contentHash": "c4334b0f865d014d12ec3ac16d5ab2fc",
+      "sourceName": "src/Reentrant.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "src/BasicERC20.sol"
+      ],
+      "versionRequirement": ">=0.6.12",
+      "artifacts": {
+        "ReentrantToken": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Reentrant.sol/ReentrantToken.json"
+        }
+      }
+    },
+    "src/ReturnsFalse.sol": {
+      "lastModificationDate": 1679920775791,
+      "contentHash": "b44c9f962fe8a24fb5e4668d30524837",
+      "sourceName": "src/ReturnsFalse.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.6.12",
+      "artifacts": {
+        "ReturnsFalseToken": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "ReturnsFalse.sol/ReturnsFalseToken.json"
+        }
+      }
+    },
+    "src/RevertToZero.sol": {
+      "lastModificationDate": 1679928493493,
+      "contentHash": "a5a94ce8caa290cc5789972f3bd30834",
+      "sourceName": "src/RevertToZero.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "src/BasicERC20.sol"
+      ],
+      "versionRequirement": ">=0.6.12",
+      "artifacts": {
+        "RevertToZeroToken": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "RevertToZero.sol/RevertToZeroToken.json"
+        }
+      }
+    },
+    "src/RevertZero.sol": {
+      "lastModificationDate": 1679928501522,
+      "contentHash": "1add278acd20c914def9068bb083b8fd",
+      "sourceName": "src/RevertZero.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "src/BasicERC20.sol"
+      ],
+      "versionRequirement": ">=0.6.12",
+      "artifacts": {
+        "RevertZeroToken": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "RevertZero.sol/RevertZeroToken.json"
+        }
+      }
+    },
+    "src/TransferFee.sol": {
+      "lastModificationDate": 1679928526524,
+      "contentHash": "be9bc7f7fd35b75a55ee88b5433007b7",
+      "sourceName": "src/TransferFee.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "src/BasicERC20.sol"
+      ],
+      "versionRequirement": ">=0.6.12",
+      "artifacts": {
+        "TransferFeeToken": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "TransferFee.sol/TransferFeeToken.json"
+        }
+      }
+    },
+    "src/TransferFromSelf.sol": {
+      "lastModificationDate": 1679928545500,
+      "contentHash": "acc583c90ea1aac54de08b89d809b30b",
+      "sourceName": "src/TransferFromSelf.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.6.12",
+      "artifacts": {
+        "TransferFromSelfToken": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "TransferFromSelf.sol/TransferFromSelfToken.json"
+        }
+      }
+    },
+    "src/Uint96.sol": {
+      "lastModificationDate": 1679920775792,
+      "contentHash": "5c946f43b3b9b7367d6c58df0122c855",
+      "sourceName": "src/Uint96.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.6.12",
+      "artifacts": {
+        "Uint96ERC20": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Uint96.sol/Uint96ERC20.json"
+        }
+      }
+    },
+    "src/Upgradable.sol": {
+      "lastModificationDate": 1679928591836,
+      "contentHash": "8b2275eec49aae27b18de54f3c088fe5",
+      "sourceName": "src/Upgradable.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "src/BasicERC20.sol"
+      ],
+      "versionRequirement": ">=0.6.12",
+      "artifacts": {
+        "Proxy": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "Upgradable.sol/Proxy.json"
+        }
+      }
+    },
+    "src/test.t.sol": {
+      "lastModificationDate": 1679920775792,
+      "contentHash": "e892bc9c8a83ea9bd92570cd5f02058a",
+      "sourceName": "src/test.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol",
+        "src/Proxied.sol"
+      ],
+      "versionRequirement": ">=0.6.12",
+      "artifacts": {
+        "ERC20": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "test.t.sol/ERC20.json"
+        },
+        "TestProxy": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "test.t.sol/TestProxy.json"
+        },
+        "User": {
+          "0.8.17+commit.8df45f5f.Darwin.appleclang": "test.t.sol/User.json"
+        }
+      }
+    }
+  }
+}

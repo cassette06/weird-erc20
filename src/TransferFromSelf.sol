@@ -3,17 +3,7 @@
 
 pragma solidity >=0.6.12;
 
-contract Math {
-    // --- Math ---
-    function add(uint x, uint y) internal pure returns (uint z) {
-        require((z = x + y) >= x);
-    }
-    function sub(uint x, uint y) internal pure returns (uint z) {
-        require((z = x - y) <= x);
-    }
-}
-
-contract TransferFromSelfToken is Math {
+contract TransferFromSelfToken {
     // --- ERC20 Data ---
     string  public constant name = "Token";
     string  public constant symbol = "TKN";
@@ -58,5 +48,13 @@ contract TransferFromSelfToken is Math {
         balanceOf[src] = sub(balanceOf[src], wad);
         balanceOf[dst] = add(balanceOf[dst], wad);
         emit Transfer(src, dst, wad);
+    }
+
+    // --- Math ---
+    function add(uint x, uint y) internal pure returns (uint z) {
+        require((z = x + y) >= x);
+    }
+    function sub(uint x, uint y) internal pure returns (uint z) {
+        require((z = x - y) <= x);
     }
 }

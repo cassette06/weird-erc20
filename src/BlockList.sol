@@ -3,9 +3,9 @@
 
 pragma solidity >=0.6.12;
 
-import {ERC20} from "./ERC20.sol";
+import {BasicERC20} from "./BasicERC20.sol";
 
-contract BlockableToken is ERC20 {
+contract BlockableToken is BasicERC20 {
     // --- Access Control ---
     address owner;
     modifier auth() { require(msg.sender == owner, "unauthorised"); _; }
@@ -16,7 +16,7 @@ contract BlockableToken is ERC20 {
     function allow(address usr) auth public { blocked[usr] = false; }
 
     // --- Init ---
-    constructor(uint _totalSupply) ERC20(_totalSupply) public {
+    constructor(uint _totalSupply) BasicERC20(_totalSupply) public {
         owner = msg.sender;
     }
 

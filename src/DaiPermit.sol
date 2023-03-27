@@ -3,17 +3,7 @@
 
 pragma solidity >=0.6.12;
 
-contract Math {
-    // --- Math ---
-    function add(uint x, uint y) internal pure returns (uint z) {
-        require((z = x + y) >= x);
-    }
-    function sub(uint x, uint y) internal pure returns (uint z) {
-        require((z = x - y) <= x);
-    }
-}
-
-contract DaiPermit is Math {
+contract DaiPermit {
     // --- ERC20 Data ---
     string  public constant name = "Token";
     string  public constant symbol = "TKN";
@@ -85,5 +75,12 @@ contract DaiPermit is Math {
         require(nonce == nonces[holder]++, "Dai/invalid-nonce");
         uint wad = allowed ? type(uint256).max : 0;
         allowance[holder][spender] = wad;
+    }
+     // --- Math ---
+    function add(uint x, uint y) internal pure returns (uint z) {
+        require((z = x + y) >= x);
+    }
+    function sub(uint x, uint y) internal pure returns (uint z) {
+        require((z = x - y) <= x);
     }
 }

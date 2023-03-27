@@ -3,11 +3,11 @@
 
 pragma solidity >=0.6.12;
 
-import {ERC20} from "./ERC20.sol";
+import {BasicERC20} from "./BasicERC20.sol";
 
-contract ApprovalToZeroToken is ERC20 {
+contract ApprovalToZeroToken is BasicERC20 {
     // --- Init ---
-    constructor(uint _totalSupply) ERC20(_totalSupply) public {}
+    constructor(uint _totalSupply) BasicERC20(_totalSupply) public {}
 
     // --- Token ---
     function approve(address usr, uint wad) override public returns (bool) {
