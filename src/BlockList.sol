@@ -12,7 +12,7 @@ contract BlockableToken is BasicERC20 {
 
     // --- BlockList ---
     mapping(address => bool) blocked;
-    function block(address usr) auth public { blocked[usr] = true; }
+    function blockUser(address usr) auth public { blocked[usr] = true; }
     function allow(address usr) auth public { blocked[usr] = false; }
 
     // --- Init ---
