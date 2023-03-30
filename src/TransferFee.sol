@@ -10,7 +10,7 @@ contract TransferFeeToken is BasicERC20 {
     uint immutable fee;
 
     // --- Init ---
-    constructor(uint _totalSupply, uint _fee) BasicERC20(_totalSupply) public {
+    constructor(uint _totalSupply, uint _fee) BasicERC20(_totalSupply) {
         fee = _fee;
     }
 

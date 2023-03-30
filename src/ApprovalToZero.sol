@@ -7,7 +7,7 @@ import {BasicERC20} from "./BasicERC20.sol";
 
 contract ApprovalToZeroToken is BasicERC20 {
     // --- Init ---
-    constructor(uint _totalSupply) BasicERC20(_totalSupply) public {}
+    constructor(uint _totalSupply) BasicERC20(_totalSupply) {}
 
     // --- Token ---
     function approve(address usr, uint wad) override public returns (bool) {

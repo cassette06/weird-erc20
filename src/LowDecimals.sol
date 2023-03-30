@@ -6,7 +6,7 @@ pragma solidity >=0.6.12;
 import {BasicERC20} from "./BasicERC20.sol";
 
 contract LowDecimalToken is BasicERC20 {
-    constructor(uint _totalSupply) BasicERC20(_totalSupply) public {
+    constructor(uint _totalSupply) BasicERC20(_totalSupply) {
         decimals = 2;
     }
 }

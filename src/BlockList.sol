@@ -16,7 +16,7 @@ contract BlockableToken is BasicERC20 {
     function allow(address usr) auth public { blocked[usr] = false; }
 
     // --- Init ---
-    constructor(uint _totalSupply) BasicERC20(_totalSupply) public {
+    constructor(uint _totalSupply) BasicERC20(_totalSupply) {
         owner = msg.sender;
     }
 

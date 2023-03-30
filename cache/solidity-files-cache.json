@@ -7,7 +7,8 @@
     "tests": "test",
     "scripts": "script",
     "libraries": [
-      "lib"
+      "lib",
+      "node_modules"
     ]
   },
   "files": {
@@ -52,8 +53,8 @@
       }
     },
     "src/Approval.sol": {
-      "lastModificationDate": 1679928120868,
-      "contentHash": "d78e30d75dee45556435ff951e4e80bb",
+      "lastModificationDate": 1680143786107,
+      "contentHash": "91af4df934601fa12a935efa770ba134",
       "sourceName": "src/Approval.sol",
       "solcConfig": {
         "settings": {
@@ -94,8 +95,8 @@
       }
     },
     "src/ApprovalToZero.sol": {
-      "lastModificationDate": 1679928131392,
-      "contentHash": "11d7240ee91aef1ca75d226c12f1458b",
+      "lastModificationDate": 1680143790274,
+      "contentHash": "ce371fd30f7bd4de8d64567e812d2eef",
       "sourceName": "src/ApprovalToZero.sol",
       "solcConfig": {
         "settings": {
@@ -136,8 +137,8 @@
       }
     },
     "src/BasicERC20.sol": {
-      "lastModificationDate": 1679928261361,
-      "contentHash": "c08d6fac90d9576ceb5044e6a8f9aa12",
+      "lastModificationDate": 1680143794041,
+      "contentHash": "0eb75cf63ccca955ea49892e0cf35401",
       "sourceName": "src/BasicERC20.sol",
       "solcConfig": {
         "settings": {
@@ -176,8 +177,8 @@
       }
     },
     "src/BlockList.sol": {
-      "lastModificationDate": 1679928146737,
-      "contentHash": "b91317e98d17451d7f74a3821e2cea2e",
+      "lastModificationDate": 1680143820605,
+      "contentHash": "ca246b4cfc616391cd94eb3066bc93a0",
       "sourceName": "src/BlockList.sol",
       "solcConfig": {
         "settings": {
@@ -218,8 +219,8 @@
       }
     },
     "src/Bytes32Metadata.sol": {
-      "lastModificationDate": 1679928207939,
-      "contentHash": "fe6617110c388d5a855264d3cbea34c0",
+      "lastModificationDate": 1680144149384,
+      "contentHash": "f58e9706ffa85a0f4dfd9d519e28402a",
       "sourceName": "src/Bytes32Metadata.sol",
       "solcConfig": {
         "settings": {
@@ -258,8 +259,8 @@
       }
     },
     "src/DaiPermit.sol": {
-      "lastModificationDate": 1679928232341,
-      "contentHash": "7d913d2b2ca54b932ebc2967cc8ba9b5",
+      "lastModificationDate": 1680144153540,
+      "contentHash": "e77e74b987b2766b23f3da389ee82d73",
       "sourceName": "src/DaiPermit.sol",
       "solcConfig": {
         "settings": {
@@ -298,8 +299,8 @@
       }
     },
     "src/HighDecimals.sol": {
-      "lastModificationDate": 1679928245179,
-      "contentHash": "9f027e11b92e61e71084f4a8f2249a02",
+      "lastModificationDate": 1680144156835,
+      "contentHash": "df5b6a2e28026d081f22613283266f42",
       "sourceName": "src/HighDecimals.sol",
       "solcConfig": {
         "settings": {
@@ -340,8 +341,8 @@
       }
     },
     "src/LowDecimals.sol": {
-      "lastModificationDate": 1679928410068,
-      "contentHash": "a7013a7e3a34127cfcab380a09fa3c98",
+      "lastModificationDate": 1680144160218,
+      "contentHash": "eb307b5951621bebc1b54183a362a02f",
       "sourceName": "src/LowDecimals.sol",
       "solcConfig": {
         "settings": {
@@ -382,8 +383,8 @@
       }
     },
     "src/MissingReturns.sol": {
-      "lastModificationDate": 1679920775791,
-      "contentHash": "e686cc986fffbebaf96b99039e902129",
+      "lastModificationDate": 1680144163274,
+      "contentHash": "936fb3376e4d6e3e6cb09edf913702e5",
       "sourceName": "src/MissingReturns.sol",
       "solcConfig": {
         "settings": {
@@ -422,8 +423,8 @@
       }
     },
     "src/NoRevert.sol": {
-      "lastModificationDate": 1679920775791,
-      "contentHash": "d6db31431e2e6711afdcd1da98fb4149",
+      "lastModificationDate": 1680144166518,
+      "contentHash": "ec2ccc2029fc77b7a758cc952739c7e0",
       "sourceName": "src/NoRevert.sol",
       "solcConfig": {
         "settings": {
@@ -462,8 +463,8 @@
       }
     },
     "src/Pausable.sol": {
-      "lastModificationDate": 1679928444033,
-      "contentHash": "cd0c2215e1289ccde9769b14fe2f8095",
+      "lastModificationDate": 1680144169220,
+      "contentHash": "84df86e9eec402123dac599d27f50512",
       "sourceName": "src/Pausable.sol",
       "solcConfig": {
         "settings": {
@@ -504,8 +505,8 @@
       }
     },
     "src/Proxied.sol": {
-      "lastModificationDate": 1679920775791,
-      "contentHash": "ec0c1e9dc4db795df79657ee5a594cc1",
+      "lastModificationDate": 1680144290524,
+      "contentHash": "7ed08052ee8958b22b4523f7c68184b7",
       "sourceName": "src/Proxied.sol",
       "solcConfig": {
         "settings": {
@@ -547,8 +548,8 @@
       }
     },
     "src/Reentrant.sol": {
-      "lastModificationDate": 1679928465560,
-      "contentHash": "c4334b0f865d014d12ec3ac16d5ab2fc",
+      "lastModificationDate": 1680144178543,
+      "contentHash": "fef00ce473bfad01fb98b541e373710a",
       "sourceName": "src/Reentrant.sol",
       "solcConfig": {
         "settings": {
@@ -589,8 +590,8 @@
       }
     },
     "src/ReturnsFalse.sol": {
-      "lastModificationDate": 1679920775791,
-      "contentHash": "b44c9f962fe8a24fb5e4668d30524837",
+      "lastModificationDate": 1680144183915,
+      "contentHash": "d05d46ed6c997580ff876379b2933ab4",
       "sourceName": "src/ReturnsFalse.sol",
       "solcConfig": {
         "settings": {
@@ -629,8 +630,8 @@
       }
     },
     "src/RevertToZero.sol": {
-      "lastModificationDate": 1679928493493,
-      "contentHash": "a5a94ce8caa290cc5789972f3bd30834",
+      "lastModificationDate": 1680144188827,
+      "contentHash": "bf2595e4bb6b75f92eccddf74d564d75",
       "sourceName": "src/RevertToZero.sol",
       "solcConfig": {
         "settings": {
@@ -671,8 +672,8 @@
       }
     },
     "src/RevertZero.sol": {
-      "lastModificationDate": 1679928501522,
-      "contentHash": "1add278acd20c914def9068bb083b8fd",
+      "lastModificationDate": 1680144192115,
+      "contentHash": "0ecc2cdf2f3bb6582ea8efddc0c47fbb",
       "sourceName": "src/RevertZero.sol",
       "solcConfig": {
         "settings": {
@@ -713,8 +714,8 @@
       }
     },
     "src/TransferFee.sol": {
-      "lastModificationDate": 1679928526524,
-      "contentHash": "be9bc7f7fd35b75a55ee88b5433007b7",
+      "lastModificationDate": 1680144197034,
+      "contentHash": "02a47bc1823ea1d4ea21a670c9926f31",
       "sourceName": "src/TransferFee.sol",
       "solcConfig": {
         "settings": {
@@ -755,8 +756,8 @@
       }
     },
     "src/TransferFromSelf.sol": {
-      "lastModificationDate": 1679928545500,
-      "contentHash": "acc583c90ea1aac54de08b89d809b30b",
+      "lastModificationDate": 1680144200260,
+      "contentHash": "4fcf146fff262e8d300472e6d392de92",
       "sourceName": "src/TransferFromSelf.sol",
       "solcConfig": {
         "settings": {
@@ -795,8 +796,8 @@
       }
     },
     "src/Uint96.sol": {
-      "lastModificationDate": 1679920775792,
-      "contentHash": "5c946f43b3b9b7367d6c58df0122c855",
+      "lastModificationDate": 1680144204240,
+      "contentHash": "bb08bc9b55c958e33a8d8ded65fc7143",
       "sourceName": "src/Uint96.sol",
       "solcConfig": {
         "settings": {
@@ -835,8 +836,8 @@
       }
     },
     "src/Upgradable.sol": {
-      "lastModificationDate": 1679928591836,
-      "contentHash": "8b2275eec49aae27b18de54f3c088fe5",
+      "lastModificationDate": 1680144264668,
+      "contentHash": "8d07f8825fc097e32db054205ee45ec2",
       "sourceName": "src/Upgradable.sol",
       "solcConfig": {
         "settings": {
@@ -877,8 +878,8 @@
       }
     },
     "src/test.t.sol": {
-      "lastModificationDate": 1679920775792,
-      "contentHash": "e892bc9c8a83ea9bd92570cd5f02058a",
+      "lastModificationDate": 1680144314839,
+      "contentHash": "0703bb9b45a0b566c8acbfb589c38a2e",
       "sourceName": "src/test.t.sol",
       "solcConfig": {
         "settings": {
